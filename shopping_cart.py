@@ -1,7 +1,9 @@
 class ShoppingCart:
     # write your code here
     def __init__(self, emp_discount=None):
-      pass
+      self.total=0
+      self.emp_discount = emp_discount
+      self.items=[]
     def add_item(self, name, price, quantity=1):
        pass
     def mean_item_price(self):
